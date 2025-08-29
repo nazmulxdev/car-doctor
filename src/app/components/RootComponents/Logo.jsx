@@ -7,10 +7,12 @@ const Logo = () => {
     <div>
       <Link href={"/"}>
         <Image
-          width={20}
-          height={20}
+          width={50}
+          height={50}
           alt="car-doctor"
           src={"/assets/logo.svg"}
+          priority
+          className="w-full h-auto"
         />
       </Link>
     </div>
